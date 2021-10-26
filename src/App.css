@@ -1,0 +1,31 @@
+.App{
+  box-sizing: border-box;
+  background-color: indigo;
+  color: azure;
+}
+
+h1{
+  text-align: center;
+ 
+}
+
+.Content{
+ font-size: 30px;
+ padding: 1rem;
+ margin: 2px;
+}
+
+.Content::first-letter{
+  text-transform: uppercase;
+}
+
+.pagebutton{
+
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20px;
+  cursor: pointer;
+  border: 2px solid whitesmoke;
+
+
+}
